@@ -409,28 +409,100 @@ li {
     transform: scale(1.05);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-
-    gap: 20px;
-    max-width: 400px;
-    margin: auto;
-    margin-top: 40px;
-
-}
-
-input {
-    padding: 18px;
-    font-size: 18px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-
-}
-
-footer {
-    padding: 30px;
+.testimonials {
+    padding: 80px 10%;
+    color: #fff;
     text-align: center;
-    margin-top: 50px;
+}
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
 
+.stars{
+    font-size: 1.5rem;
+    color: #ffe603;
+}
+
+.title-testimonials {
+    font-size: 2rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.subtitle-testimonials {
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.testimonials .testimonials-container .testimonials-card {
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+
+}
+
+.testimonials .testimonials-container .testimonials-card p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+
+}
+.testimonials .testimonials-container .testimonials-card img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.testimonials .testimonials-container .testimonials-card span{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.img-pedro-carla {
+    margin-top: 3rem;
+}
+
+.security {
+    border: 2px solid #ffffff;
+    padding: 2rem 5%;
+    background-color: #fff;
+    border-radius: 3rem;
+    margin: 0 1rem 1rem 1rem; 
+}
+
+.security-content {
+    display: flex;
+    background-color: #fff;
+}
+
+.security-content i{
+    margin-left: 5px;
+    font-size: 6rem;
+    color: #009EE3;
+    object-fit: contain;
+}
+.guarantee {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.guarantee h3{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.guarantee p{
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #555;
 }
