@@ -715,3 +715,328 @@ li {
 .contact {
     margin-bottom: 10px;
 }
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+
+/* ---------- Notebook ---------- */
+@media screen and (max-width: 1200px){
+
+    .hero{
+        padding:70px 5%;
+    }
+
+    .hero h1{
+        font-size:3.5rem;
+    }
+
+    .book{
+        width:420px;
+    }
+
+    .cards-side{
+        right:-20px;
+    }
+
+}
+
+
+/* ---------- Tablet ---------- */
+@media screen and (max-width: 992px){
+
+    .header section{
+        padding:15px 25px;
+    }
+
+    .navbar{
+        gap:18px;
+    }
+
+    .navbar a{
+        font-size:.9rem;
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        text-align:center;
+
+        gap:50px;
+
+        padding:130px 30px 60px;
+
+    }
+
+    .hero-left,
+    .hero-right{
+
+        width:100%;
+
+    }
+
+    .hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .hero p{
+
+        max-width:100%;
+
+    }
+
+    .infos{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:25px;
+
+    }
+
+    .hero button{
+
+        width:100%;
+
+        max-width:380px;
+
+    }
+
+    .hero-right{
+
+        justify-content:center;
+
+    }
+
+    .book{
+
+        width:340px;
+
+    }
+
+    .cards-side{
+
+        position:static;
+
+        display:grid;
+
+        grid-template-columns:1fr 1fr;
+
+        gap:15px;
+
+        margin-top:30px;
+
+    }
+
+    .floating-card{
+
+        width:100%;
+
+        height:auto;
+
+    }
+
+    /* SOBRE */
+
+    .about{
+
+        flex-direction:column;
+
+        gap:40px;
+
+        text-align:center;
+
+    }
+
+    .about img{
+
+        width:100%;
+
+        max-width:420px;
+
+    }
+
+    .about-info{
+
+        align-items:center;
+
+    }
+
+}
+
+
+/* ---------- Celular ---------- */
+@media screen and (max-width:768px){
+
+    html{
+
+        font-size:14px;
+
+    }
+
+    .header section{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .navbar{
+
+        display:none;
+
+    }
+
+    .header-buttons{
+
+        width:100%;
+
+    }
+
+    .header-buttons button{
+
+        width:100%;
+
+    }
+
+    .hero{
+
+        padding:120px 20px 50px;
+
+    }
+
+    .tag{
+
+        font-size:.75rem;
+
+    }
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+        line-height:1.1;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .infos{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .info{
+
+        width:100%;
+
+    }
+
+    .hero button{
+
+        width:100%;
+
+    }
+
+    .book{
+
+        width:260px;
+
+    }
+
+    .cards-side{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .floating-card{
+
+        width:100%;
+
+        padding:15px;
+
+    }
+
+    /* BENEFÍCIOS */
+
+    .benefits{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* DEPOIMENTOS */
+
+    .testimonials{
+
+        flex-direction:column;
+
+    }
+
+    /* SOBRE */
+
+    .about{
+
+        padding:60px 20px;
+
+    }
+
+    .about h2{
+
+        font-size:2rem;
+
+    }
+
+    .about-info{
+
+        align-items:flex-start;
+
+    }
+
+}
+
+
+/* ---------- Celulares muito pequenos ---------- */
+@media screen and (max-width:480px){
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .book{
+
+        width:210px;
+
+    }
+
+    .hero button{
+
+        font-size:1rem;
+
+        padding:18px;
+
+    }
+
+    .floating-card{
+
+        font-size:.9rem;
+
+    }
+
+}
